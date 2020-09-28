@@ -37,7 +37,7 @@ if (isset($_GET['name'])) {
 		stripos($value, "lex") === false &&
 		stripos($value, "Vladimir_Polukhin") === false &&
 		stripos($value, "Oleg_Semenov") === false &&
-		stripos($value, "Anna_1c") === false &&
+		stripos($value, "Anna_S") === false &&
 		stripos($value, "Ivan_T") === false &&
 		stripos($value, "VictorB") === false
 	) ;
