@@ -49,7 +49,6 @@ stripos($value, "VictorB") === false
 ) ;
 else file_get_contents( 'https://api.telegram.org/bot'.$token.'/sendMessage?chat_id='.$chat.'&text=tur_'.$value );
 //1cGate--
-}
 
 //saratov++
 $chat           = '-1001442976943';
@@ -58,7 +57,8 @@ stripos($value, "Bistrov_R") === false &&
 stripos($value, "Anna_S") === false &&
 stripos($value, "Kazakov") === false
 ) ;
-else file_get_contents( 'https://api.telegram.org/bot'.$token.'/sendMessage?chat_id='.$chat.'&text=tur_'.$value );
+else file_get_contents( 'http://scriptlab.net/telegram/bots/relaybot/relaylocked.php?chat='.$chat.'&text=tur_'.$value );
+//else file_get_contents( 'https://api.telegram.org/bot'.$token.'/sendMessage?chat_id='.$chat.'&text=tur_'.$value );
 //saratov--
 }
 
